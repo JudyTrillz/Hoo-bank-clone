@@ -18,7 +18,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[1rem] text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } hover:opacity-70 transition duration-300 ease-in-out`}>
-            <a href={`#navLink.id`}>{navLink.title}</a>
+            <a href={`#${navLink.id}`}>{navLink.title}</a>
           </li>
         ))}
       </ul>
