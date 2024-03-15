@@ -28,7 +28,9 @@ const Navbar = () => {
               <li
                 key={navLink.id}
                 className={`font-poppins font-normal cursor-pointer text-[1rem] text-white ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} hover:opacity-70 transition duration-300 ease-in-out`}>
-                <a href={`#${navLink.id}`}>{navLink.title}</a>
+                <a href={`#${navLink.id}`} onClick={() => setToggle(false)}>
+                  {navLink.title}
+                </a>
               </li>
             ))}
           </ul>
