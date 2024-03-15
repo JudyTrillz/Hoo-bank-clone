@@ -1,21 +1,9 @@
 import styles from "./style";
-
-import {
-  Billing,
-  Business,
-  CardDeal,
-  Clients,
-  CTA,
-  Footer,
-  Navbar,
-  Stats,
-  Testimonials,
-  Hero,
-} from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden text-white'>
+    <div className='font-poppins bg-primary w-full overflow-hidden text-white'>
       <header className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
